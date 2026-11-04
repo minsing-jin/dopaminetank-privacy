@@ -1,6 +1,6 @@
 # Dopamine Tank Privacy Policy
 
-Effective date: October 5, 2026
+Effective date: November 4, 2026
 
 Dopamine Tank ("the app") is usable anonymously without account registration. This policy describes what we process.
 
@@ -15,6 +15,7 @@ Dopamine Tank ("the app") is usable anonymously without account registration. Th
 | Water-ticket request message | Short unlock-request text sent to a friend (optional) | User input |
 | Subscription status | Whether you hold a paid plan (Pro/Group/Lifetime) and receipt verification results | Purchase |
 | Advertising identifier | Device advertising ID for showing ads (Google AdMob SDK) | Ad display |
+| Anonymous usage statistics (optional) | **Only if you turn on "Share anonymous usage stats"**: app opens and session length (in ranges), which features you use (onboarding steps, group create/join/leave, pokes, water tickets, skins, widgets), app version, device model, OS version, language and approximate region (derived by Google from the IP address, which is not stored by us). It never contains app names, per-app usage, exact times, group or display names | After you opt in |
 
 The app does **not** collect call content, message content, screen content, keystrokes, or per-app usage breakdowns.
 
@@ -23,6 +24,7 @@ The app does **not** collect call content, message content, screen content, keys
 - Providing the shared water-tank service (group level calculation, locking/unlocking, pokes, water tickets)
 - Verifying paid subscription entitlements
 - Showing ads to non-subscribers
+- Improving the app with aggregated, anonymous usage statistics (only with your consent)
 
 We do not use your information for marketing, and we do not sell or share it with third parties for their own purposes.
 
@@ -35,6 +37,7 @@ We do not use your information for marketing, and we do not sell or share it wit
 
 - Data is stored in Google Cloud Firestore (us-central1, United States). Google maintains adequate transfer safeguards.
 - The Google AdMob SDK processes the advertising identifier for ad display.
+- Google Analytics for Firebase (Google LLC, United States) processes the optional usage statistics. It is off until you opt in; you can turn it off at any time in Settings → Account, which also deletes the analytics identifier on the device. We do not use the advertising identifier for analytics and do not link analytics to your account.
 - No other third-party sharing occurs.
 
 ## 5. Your Rights
